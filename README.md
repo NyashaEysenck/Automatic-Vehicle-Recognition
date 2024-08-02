@@ -1,4 +1,4 @@
-### Automatic Vehicle Recognition System
+# Automatic Vehicle Recognition System
 
 This project was developed as a school group project that implements an Automatic Vehicle Recognition System using Python and Flask, designed for managing clients, detecting license plates from video streams, extracting text using OCR, and managing entry approvals based on recognized plates.
 
@@ -18,11 +18,11 @@ Contributing
 
 License
 
-### Introduction
+## Introduction
 
 The Automatic Vehicle Recognition System is designed to streamline vehicle entry management by automatically detecting license plates from video streams and managing entry approvals based on recognized plates. It integrates with an external camera for real-time video streaming and uses OCR for extracting text from detected license plates.
 
-### Features
+## Features
 
 License plate detection using Haar Cascade classifier.
 
@@ -36,13 +36,13 @@ Email notifications for updates made to clients' or guards' accounts.
 
 User management: Superuser can add new guards, clients, and vehicles.
 
-### Installation
+## Installation
 
 clone the repositor
 cd automatic-vehicle-recognition
 pip install -r requirements.txt
 
-### Usage
+## Usage
 
 Starting the Flask Server
 run python main.py in the root directory
@@ -76,10 +76,12 @@ Start the camera through the application interface and initiate the system to be
 Email Updates
 Email updates are sent for every update made to clients' or guards' accounts.
 
-### Technologies Used
+## Technologies Used
 Python
 Flask
 OpenCV
 EasyOCR
 SQLAlchemy
 MySQL
+
+# SEE Documentation for full system documentation and contributors
